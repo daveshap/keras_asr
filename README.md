@@ -25,3 +25,9 @@ Train model on:
 Train model on:
 * Input: Encoded sentence
 * Output: Text sentence
+
+# Inference
+
+1. Generate MFCC from raw audio
+2. Generate encoded sentence by feeding MFCC to encoder model
+3. Generate text sentence by feeding encoded sentence to decoder model
